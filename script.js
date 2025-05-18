@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     searchBox.addEventListener("input", function () {
         let query = searchBox.value.toLowerCase();
-        
+
         books.forEach(book => {
             if (book.textContent.toLowerCase().includes(query)) {
                 book.style.display = "block";
