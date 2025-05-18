@@ -33,14 +33,14 @@ main {
     width: 100%;
 }
 
-/* Review container - Titles appear successively */
+/* Review container - ensuring book titles appear immediately */
 .reviews {
     display: flex;
     flex-direction: column; /* Books appear one after another */
     align-items: center;
     gap: 20px;
     width: 100%;
-    padding-top: 0; /* Removes gap so first book appears immediately */
+    padding-top: 0; /* Ensures first book title follows directly */
 }
 
 /* Individual review styling */
@@ -51,6 +51,13 @@ main {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     text-align: center;
     width: 80%;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .review {
+        width: 95%;
+    }
 }
 
 /* Footer */
