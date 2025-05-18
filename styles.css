@@ -31,8 +31,8 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-top: 20px; /* Reduced padding after hero section */
-    padding-bottom: 20px; /* Reduced padding before footer */
+    padding-top: 10px; /* Reduced padding after hero section */
+    padding-bottom: 10px; /* Reduced padding before footer */
 }
 
 /* Reviews - Titles appear immediately */
@@ -75,4 +75,28 @@ main {
 }
 
 .buy-button:hover {
-    background
+    background-color: #e68a00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 18px; /* Slightly smaller padding */
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .review {
+        width: 90%;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .review {
+        width: 95%;
+        padding: 10px;
+    }
+        }
