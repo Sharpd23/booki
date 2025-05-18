@@ -16,7 +16,7 @@ html, body {
     flex-direction: column;
 }
 
-/* Sticky & Reduced Hero Section */
+/* Restored Hero Section to Original Size */
 header {
     position: fixed;
     top: 0;
@@ -24,10 +24,10 @@ header {
     width: 100%;
     z-index: 1000;
     text-align: center;
-    padding: 45px 20px; /* Reduced size */
+    padding: 60px 20px; /* Restored original larger padding */
     background-color: #4caf50;
     color: white;
-    font-size: 22px;
+    font-size: 28px; /* Original larger font size */
 }
 
 /* Push content down to prevent overlap with sticky header */
@@ -37,8 +37,8 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 125px; /* Adjusted for smaller hero height */
-    padding-top: 10px; /* Added 10px padding after hero section */
+    margin-top: 140px; /* Adjusted for restored larger hero height */
+    padding-top: 10px; /* Spacing after hero section */
     padding-bottom: 10px; /* Spacing before footer */
 }
 
@@ -54,7 +54,7 @@ main {
     border-radius: 10px;
 }
 
-/* Individual review - Reduced vertical height to 2/3 */
+/* Individual review - Vertical height reduced to 2/3 */
 .review {
     background-color: white;
     padding: 15px;
