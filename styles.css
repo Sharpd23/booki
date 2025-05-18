@@ -16,18 +16,18 @@ html, body {
     flex-direction: column;
 }
 
-/* Sticky & Larger Hero Section */
+/* Sticky & Reduced Hero Section */
 header {
-    position: fixed; /* Keeps it visible while scrolling */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Ensures it stays above other content */
+    z-index: 1000;
     text-align: center;
-    padding: 60px 20px; /* Larger padding for prominence */
-    background-color: #4caf50; /* Green background */
+    padding: 45px 20px; /* Reduced padding to 75% of original */
+    background-color: #4caf50;
     color: white;
-    font-size: 28px; /* Larger font size */
+    font-size: 22px; /* Slightly smaller font size */
 }
 
 /* Push content down to prevent overlap with sticky header */
@@ -37,7 +37,7 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 140px; /* Adjusted for header height to prevent overlap */
+    margin-top: 105px; /* Adjusted for smaller hero height */
     padding-top: 10px; /* Spacing after hero section */
     padding-bottom: 10px; /* Spacing before footer */
 }
