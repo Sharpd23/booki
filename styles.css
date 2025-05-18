@@ -10,17 +10,17 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #eaf6e4; /* Light green background */
+    background-color: #4caf50; /* Overall green background */
     color: #2d7a2d; /* Dark green text */
     display: flex;
     flex-direction: column;
 }
 
-/* Hero Section (Header) - Now Blue */
+/* Header */
 header {
     text-align: center;
     padding: 20px;
-    background-color: #1e3a8a; /* Deep blue background */
+    background-color: #4caf50; /* Reverted to green */
     color: white;
 }
 
@@ -61,11 +61,11 @@ main {
     margin-top: 15px;
 }
 
-/* Buy on Amazon Button */
+/* Buy on Amazon Button - Stays Blue */
 .buy-button {
     display: inline-block;
     padding: 10px 22px;
-    background-color: #ff9900;
+    background-color: #1e3a8a; /* Deep blue background */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -75,14 +75,14 @@ main {
 }
 
 .buy-button:hover {
-    background-color: #e68a00;
+    background-color: #153075; /* Slightly darker blue for hover effect */
 }
 
-/* Footer - Now Blue */
+/* Footer */
 footer {
     text-align: center;
     padding: 18px;
-    background-color: #1e3a8a; /* Deep blue background */
+    background-color: #4caf50; /* Reverted to green */
     color: white;
 }
 
