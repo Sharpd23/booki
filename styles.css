@@ -11,7 +11,7 @@ html, body {
     height: 100%;
     font-family: Arial, sans-serif;
     background-color: #4caf50; /* Overall green background */
-    color: #2d7a2d; /* Dark green text */
+    color: #2d7a2d;
     display: flex;
     flex-direction: column;
 }
@@ -19,8 +19,8 @@ html, body {
 /* Header */
 header {
     text-align: center;
-    padding: 20px;
-    background-color: #4caf50; /* Reverted to green */
+    padding: 30px;
+    background-color: #4caf50; /* Green background */
     color: white;
 }
 
@@ -31,17 +31,20 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-top: 10px; /* Padding after hero section */
-    padding-bottom: 10px; /* Padding before footer */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-/* Reviews */
+/* Reviews Section - Light Green Background */
 .reviews {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     width: 100%;
+    padding: 20px;
+    background-color: #d5f5c1; /* Light green background */
+    border-radius: 10px;
 }
 
 /* Individual review */
@@ -61,11 +64,11 @@ main {
     margin-top: 15px;
 }
 
-/* Buy on Amazon Button - Stays Blue */
+/* Buy on Amazon Button */
 .buy-button {
     display: inline-block;
     padding: 10px 22px;
-    background-color: #1e3a8a; /* Deep blue background */
+    background-color: #1e3a8a; /* Blue background */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -75,14 +78,14 @@ main {
 }
 
 .buy-button:hover {
-    background-color: #153075; /* Slightly darker blue for hover effect */
+    background-color: #153075;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    padding: 18px;
-    background-color: #4caf50; /* Reverted to green */
+    padding: 30px;
+    background-color: #4caf50; /* Green background */
     color: white;
 }
 
