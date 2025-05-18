@@ -38,7 +38,7 @@ main {
     align-items: center;
     width: 100%;
     margin-top: 125px; /* Adjusted for smaller hero height */
-    padding-top: 10px; /* Spacing after hero section */
+    padding-top: 10px; /* Added 10px padding after hero section */
     padding-bottom: 10px; /* Spacing before footer */
 }
 
