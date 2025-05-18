@@ -16,12 +16,16 @@ html, body {
     flex-direction: column;
 }
 
-/* Header */
+/* Sticky & Larger Hero Section */
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures it stays visible while scrolling */
     text-align: center;
-    padding: 30px;
+    padding: 50px; /* Increased padding for prominence */
     background-color: #4caf50; /* Green background */
     color: white;
+    font-size: 24px; /* Larger font size */
 }
 
 /* Main section */
@@ -64,11 +68,11 @@ main {
     margin-top: 15px;
 }
 
-/* Buy on Amazon Button */
+/* Buy on Amazon Button - Blue */
 .buy-button {
     display: inline-block;
     padding: 10px 22px;
-    background-color: #1e3a8a; /* Blue background */
+    background-color: #1e3a8a; /* Deep blue background */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -78,13 +82,13 @@ main {
 }
 
 .buy-button:hover {
-    background-color: #153075;
+    background-color: #153075; /* Darker blue hover effect */
 }
 
 /* Footer */
 footer {
     text-align: center;
-    padding: 30px;
+    padding: 30px; /* Ensuring footer has spacing */
     background-color: #4caf50; /* Green background */
     color: white;
 }
