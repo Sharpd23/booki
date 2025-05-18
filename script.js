@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     let searchBox = document.getElementById("searchBox");
-    let books = document.querySelectorAll("#bookList .review");
+    let books = document.querySelectorAll("#bookList.review");
 
     searchBox.addEventListener("input", function () {
         let query = searchBox.value.toLowerCase();
