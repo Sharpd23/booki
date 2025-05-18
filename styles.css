@@ -1,4 +1,4 @@
-/* Reset default margin and padding */
+/* Reset margin and padding */
 * {
     margin: 0;
     padding: 0;
@@ -10,13 +10,13 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #eaf6e4; /* Light green background */
-    color: #2d7a2d; /* Dark green text */
+    background-color: #eaf6e4;
+    color: #2d7a2d;
     display: flex;
     flex-direction: column;
 }
 
-/* Header (Hero section) */
+/* Header */
 header {
     text-align: center;
     padding: 20px;
@@ -24,18 +24,7 @@ header {
     color: white;
 }
 
-/* Main section */
-main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding-top: 30px; /* Adds spacing after the hero section */
-    padding-bottom: 30px; /* Adds spacing before the footer */
-}
-
-/* Reviews - Book titles appear immediately */
+/* Reviews */
 .reviews {
     display: flex;
     flex-direction: column;
@@ -54,10 +43,34 @@ main {
     width: 80%;
 }
 
+/* Button container (centers the button) */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* Buy on Amazon Button */
+.buy-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff9900;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.buy-button:hover {
+    background-color: #e68a00;
+}
+
 /* Footer */
 footer {
     text-align: center;
-    padding: 20px; /* Added extra padding for spacing */
+    padding: 20px;
     background-color: #4caf50;
     color: white;
 }
