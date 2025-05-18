@@ -38,7 +38,7 @@ main {
     align-items: center;
     width: 100%;
     margin-top: 125px; /* Adjusted for smaller hero height */
-    padding-top: 10px; /* Added 10px padding after hero section */
+    padding-top: 10px; /* Spacing after hero section */
     padding-bottom: 10px; /* Spacing before footer */
 }
 
@@ -54,14 +54,14 @@ main {
     border-radius: 10px;
 }
 
-/* Individual review */
+/* Individual review - Reduced to 2/3 size */
 .review {
     background-color: white;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     text-align: center;
-    width: 80%;
+    width: 66.6%; /* Reduced size to 2/3 of original */
 }
 
 /* Button container */
@@ -99,14 +99,14 @@ footer {
 /* Responsive adjustments */
 @media (max-width: 1024px) {
     .review {
-        width: 90%;
+        width: 75%; /* Adjusted for medium screens */
         padding: 12px;
     }
 }
 
 @media (max-width: 768px) {
     .review {
-        width: 95%;
+        width: 85%; /* Adjusted for smaller screens */
         padding: 10px;
     }
 }
