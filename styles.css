@@ -35,7 +35,7 @@ main {
     padding-bottom: 10px;
 }
 
-/* Reviews Section - Light Green Background */
+/* Reviews Section - Cream Background */
 .reviews {
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ main {
     gap: 20px;
     width: 100%;
     padding: 20px;
-    background-color: #d5f5c1; /* Light green background */
+    background-color: #fff5e1; /* Cream background */
     border-radius: 10px;
 }
 
