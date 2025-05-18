@@ -18,23 +18,26 @@ html, body {
 
 /* Sticky & Larger Hero Section */
 header {
-    position: sticky;
+    position: fixed; /* Ensures it stays visible while scrolling */
     top: 0;
-    z-index: 1000; /* Ensures it stays visible while scrolling */
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays above other content */
     text-align: center;
-    padding: 50px; /* Increased padding for prominence */
+    padding: 60px 20px; /* Increased padding for prominence */
     background-color: #4caf50; /* Green background */
     color: white;
-    font-size: 24px; /* Larger font size */
+    font-size: 28px; /* Larger font size */
 }
 
-/* Main section */
+/* Push content down to prevent overlap with sticky header */
 main {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 120px; /* Adjusted for header height */
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -72,7 +75,7 @@ main {
 .buy-button {
     display: inline-block;
     padding: 10px 22px;
-    background-color: #1e3a8a; /* Deep blue background */
+    background-color: #1e3a8a; /* Blue background */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -82,13 +85,13 @@ main {
 }
 
 .buy-button:hover {
-    background-color: #153075; /* Darker blue hover effect */
+    background-color: #153075;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    padding: 30px; /* Ensuring footer has spacing */
+    padding: 30px;
     background-color: #4caf50; /* Green background */
     color: white;
 }
