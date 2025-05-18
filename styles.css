@@ -31,8 +31,8 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-top: 30px; /* Adds space after the hero section */
-    padding-bottom: 30px; /* Space before the footer */
+    padding-top: 40px; /* Added padding after hero section */
+    padding-bottom: 40px; /* Added padding before footer */
 }
 
 /* Reviews - Titles appear immediately */
