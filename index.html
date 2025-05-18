@@ -12,76 +12,88 @@
     <header>
         <h1>Bookilogue</h1>
         <p>Your gateway to insightful book reviews</p>
+        <input type="text" id="searchBox" placeholder="Search books..." onkeyup="liveSearch()">
     </header>
 
     <main>
-        <section class="reviews">
+        <section class="reviews" id="bookList">
+            <h2>Book Reviews</h2>
+
             <div class="review">
-                <h2>The Silent Echo</h2>
-                <p>A haunting exploration of human resilience, "The Silent Echo" transports readers to a town consumed by mystery. The protagonist, a reclusive artist, uncovers a long-buried secret that threatens to unravel his perception of reality. Blending psychological depth with poetic prose, the novel delivers a mesmerizing experience.</p>
+                <h3>The Silent Echo</h3>
+                <p>A haunting exploration of human resilience, "The Silent Echo" transports readers to a town consumed by mystery...</p>
                 <div class="button-container">
                     <a href="https://www.amazon.com/s?k=The+Silent+Echo" class="buy-button" target="_blank">Buy on Amazon</a>
                 </div>
             </div>
+
             <div class="review">
-                <h2>Shadow of the Forgotten</h2>
-                <p>"Shadow of the Forgotten" takes us on a thrilling journey through lost civilizations and enigmatic artifacts. Dr. Evelyn Carter, an archaeologist obsessed with discovering the truth behind an ancient myth, embarks on an adventure that changes her life forever.</p>
+                <h3>Shadow of the Forgotten</h3>
+                <p>"Shadow of the Forgotten" takes us on a thrilling journey through lost civilizations and enigmatic artifacts...</p>
                 <div class="button-container">
                     <a href="https://www.amazon.com/s?k=Shadow+of+the+Forgotten" class="buy-button" target="_blank">Buy on Amazon</a>
                 </div>
             </div>
+
             <div class="review">
-                <h2>Echoes of Tomorrow</h2>
-                <p>A sci-fi marvel, "Echoes of Tomorrow" explores the philosophical implications of time travel. The protagonist, a scientist trapped in a paradox, fights to unravel the mysteries of causality while confronting personal ghosts of the past and future.</p>
+                <h3>Echoes of Tomorrow</h3>
+                <p>A sci-fi marvel, "Echoes of Tomorrow" explores the philosophical implications of time travel...</p>
                 <div class="button-container">
                     <a href="https://www.amazon.com/s?k=Echoes+of+Tomorrow" class="buy-button" target="_blank">Buy on Amazon</a>
                 </div>
             </div>
+
             <div class="review">
-                <h2>The Last Ember</h2>
-                <p>"The Last Ember" is a deeply moving tale of sacrifice and survival, set against the backdrop of a world on the brink of collapse. The protagonist, an unlikely hero, must rekindle hope in a community fractured by fear and turmoil.</p>
+                <h3>The Last Ember</h3>
+                <p>"The Last Ember" is a deeply moving tale of sacrifice and survival, set against the backdrop of a world on the brink of collapse...</p>
                 <div class="button-container">
                     <a href="https://www.amazon.com/s?k=The+Last+Ember" class="buy-button" target="_blank">Buy on Amazon</a>
                 </div>
             </div>
+
             <div class="review">
-                <h2>Whispers in the Wind</h2>
-                <p>An enchanting novel, "Whispers in the Wind" dives into the complexities of love, loss, and self-discovery. Set in the picturesque countryside, the protagonist’s search for belonging intertwines with whispers of the past, leading to a revelation that changes everything.</p>
+                <h3>Whispers in the Wind</h3>
+                <p>An enchanting novel, "Whispers in the Wind" dives into the complexities of love, loss, and self-discovery...</p>
                 <div class="button-container">
                     <a href="https://www.amazon.com/s?k=Whispers+in+the+Wind" class="buy-button" target="_blank">Buy on Amazon</a>
                 </div>
             </div>
+
             <div class="review">
-                <h2>Beneath the Crimson Sky</h2>
-                <p>A historical epic, "Beneath the Crimson Sky" captures the horrors and heroism of wartime. The novel chronicles the lives of individuals caught in the chaos of conflict, offering a breathtaking perspective on courage and perseverance.</p>
+                <h3>Beneath the Crimson Sky</h3>
+                <p>A historical epic, "Beneath the Crimson Sky" captures the horrors and heroism of wartime...</p>
                 <div class="button-container">
                     <a href="https://www.amazon.com/s?k=Beneath+the+Crimson+Sky" class="buy-button" target="_blank">Buy on Amazon</a>
                 </div>
             </div>
+
             <div class="review">
-                <h2>The Vanishing Point</h2>
-                <p>"The Vanishing Point" is an exhilarating thriller that keeps readers on edge. A detective obsessed with solving a decades-old disappearance stumbles upon new clues, leading to shocking twists and dark revelations.</p>
+                <h3>The Vanishing Point</h3>
+                <p>"The Vanishing Point" is an exhilarating thriller that keeps readers on edge...</p>
                 <div class="button-container">
                     <a href="https://www.amazon.com/s?k=The+Vanishing+Point" class="buy-button" target="_blank">Buy on Amazon</a>
                 </div>
             </div>
+
             <div class="review">
-                <h2>Fading Starlight</h2>
-                <p>A poetic exploration of grief and healing, "Fading Starlight" captures the delicate balance between sorrow and hope. Told through lyrical prose and evocative imagery, the novel resonates deeply with anyone who has ever faced loss.</p>
+                <h3>Fading Starlight</h3>
+                <p>A poetic exploration of grief and healing, "Fading Starlight" captures the delicate balance between sorrow and hope...</p>
                 <div class="button-container">
                     <a href="https://www.amazon.com/s?k=Fading+Starlight" class="buy-button" target="_blank">Buy on Amazon</a>
                 </div>
             </div>
+
             <div class="review">
-                <h2>Labyrinth of Lies</h2>
-                <p>A psychological masterpiece, "Labyrinth of Lies" unravels the deceptive nature of truth. The protagonist, an investigative journalist, becomes entangled in a web of conspiracy, forcing them to confront uncomfortable truths.</p>
+                <h3>Labyrinth of Lies</h3>
+                <p>A psychological masterpiece, "Labyrinth of Lies" unravels the deceptive nature of truth...</p>
                 <div class="button-container">
                     <a href="https://www.amazon.com/s?k=Labyrinth+of+Lies" class="buy-button" target="_blank">Buy on Amazon</a>
                 </div>
             </div>
+
             <div class="review">
-                <h2>Threads of Destiny</h2>
-                <p>A fantastical journey through realms unknown, "Threads of Destiny" follows a young scholar who discovers an ancient prophecy hidden within lost manuscripts. As forces beyond their control conspire against them, they must navigate treacherous landscapes and unearth long-forgotten magic to shape the world’s fate.</p>
+                <h3>Threads of Destiny</h3>
+                <p>A fantastical journey through realms unknown, "Threads of Destiny" follows a young scholar who discovers an ancient prophecy...</p>
                 <div class="button-container">
                     <a href="https://www.amazon.com/s?k=Threads+of+Destiny" class="buy-button" target="_blank">Buy on Amazon</a>
                 </div>
