@@ -16,11 +16,11 @@ html, body {
     flex-direction: column;
 }
 
-/* Header */
+/* Hero Section (Header) - Now Blue */
 header {
     text-align: center;
     padding: 20px;
-    background-color: #4caf50;
+    background-color: #1e3a8a; /* Deep blue background */
     color: white;
 }
 
@@ -31,11 +31,11 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-top: 10px; /* Reduced padding after hero section */
-    padding-bottom: 10px; /* Reduced padding before footer */
+    padding-top: 10px; /* Padding after hero section */
+    padding-bottom: 10px; /* Padding before footer */
 }
 
-/* Reviews - Titles appear immediately */
+/* Reviews */
 .reviews {
     display: flex;
     flex-direction: column;
@@ -47,14 +47,14 @@ main {
 /* Individual review */
 .review {
     background-color: white;
-    padding: 15px; /* Slightly smaller padding for consistency */
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     text-align: center;
     width: 80%;
 }
 
-/* Button container (centers the button under each review) */
+/* Button container */
 .button-container {
     display: flex;
     justify-content: center;
@@ -78,11 +78,11 @@ main {
     background-color: #e68a00;
 }
 
-/* Footer */
+/* Footer - Now Blue */
 footer {
     text-align: center;
-    padding: 18px; /* Slightly smaller padding */
-    background-color: #4caf50;
+    padding: 18px;
+    background-color: #1e3a8a; /* Deep blue background */
     color: white;
 }
 
@@ -99,4 +99,4 @@ footer {
         width: 95%;
         padding: 10px;
     }
-        }
+}
